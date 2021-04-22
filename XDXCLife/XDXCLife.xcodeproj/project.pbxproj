@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0907E469262E86BB00E8F9BB /* XDBaseNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0907E468262E86BB00E8F9BB /* XDBaseNav.swift */; };
+		0907E46C262E886F00E8F9BB /* XDBaseTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0907E46B262E886F00E8F9BB /* XDBaseTabBar.swift */; };
+		0907E46F262EA6C400E8F9BB /* XDBaseTableViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0907E46E262EA6C400E8F9BB /* XDBaseTableViewVC.swift */; };
+		0907E472262EA6E600E8F9BB /* XDBaseCollectionViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0907E471262EA6E600E8F9BB /* XDBaseCollectionViewVC.swift */; };
+		0907E475262EA70A00E8F9BB /* XDBaseCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0907E474262EA70A00E8F9BB /* XDBaseCollectionViewFlowLayout.swift */; };
+		0907E47B262EB06900E8F9BB /* XDEmptyDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0907E47A262EB06900E8F9BB /* XDEmptyDataCell.swift */; };
+		0907E47E262EC64200E8F9BB /* XDDefaultRefreshFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0907E47D262EC64200E8F9BB /* XDDefaultRefreshFooter.swift */; };
+		0907E482262EC6E100E8F9BB /* XDDefaultRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0907E481262EC6E100E8F9BB /* XDDefaultRefreshHeader.swift */; };
+		0907E486262EDED300E8F9BB /* XDHttp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0907E485262EDED300E8F9BB /* XDHttp.swift */; };
+		0907E52F26300FE500E8F9BB /* WeakHighTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0907E52E26300FE500E8F9BB /* WeakHighTimer.swift */; };
+		0907E5322630102E00E8F9BB /* XDCheckUpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0907E5312630102E00E8F9BB /* XDCheckUpdateView.swift */; };
+		0907E535263013C300E8F9BB /* XDWaterFallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0907E534263013C300E8F9BB /* XDWaterFallLayout.swift */; };
+		0907E53826302A9800E8F9BB /* XDHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0907E53726302A9800E8F9BB /* XDHomeVC.swift */; };
+		0907E53B26302AEA00E8F9BB /* XDClassifyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0907E53A26302AEA00E8F9BB /* XDClassifyVC.swift */; };
+		0907E53E26302B6000E8F9BB /* XDOfflineStoresVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0907E53D26302B6000E8F9BB /* XDOfflineStoresVC.swift */; };
+		0907E54126302B9700E8F9BB /* XDShoppingTrolleyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0907E54026302B9700E8F9BB /* XDShoppingTrolleyVC.swift */; };
+		0907E54426302BAE00E8F9BB /* XDMineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0907E54326302BAE00E8F9BB /* XDMineVC.swift */; };
+		0907E54726302CF900E8F9BB /* XDLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0907E54626302CF900E8F9BB /* XDLoginVC.swift */; };
+		09D360C4262E664C009A9284 /* XDHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D360C3262E664C009A9284 /* XDHUD.swift */; };
+		09D360C7262E6FFC009A9284 /* XDEmptyDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D360C6262E6FFC009A9284 /* XDEmptyDataView.swift */; };
+		09E5C9D8262D22150052E26C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5C9D7262D22150052E26C /* AppDelegate.swift */; };
+		09E5C9E1262D221A0052E26C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09E5C9E0262D221A0052E26C /* Assets.xcassets */; };
+		09E5C9E4262D221A0052E26C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09E5C9E2262D221A0052E26C /* LaunchScreen.storyboard */; };
+		09E5CA25262D53480052E26C /* XDAppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5CA24262D53480052E26C /* XDAppConfig.swift */; };
+		09E5CA28262D5C890052E26C /* XDAppConfig+enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5CA27262D5C890052E26C /* XDAppConfig+enum.swift */; };
+		09E5CA2B262D5E320052E26C /* XDAppConfig+notifi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5CA2A262D5E320052E26C /* XDAppConfig+notifi.swift */; };
+		09E5CA2E262D60460052E26C /* XDSDKConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5CA2D262D60460052E26C /* XDSDKConfig.swift */; };
+		09E5CA31262D60950052E26C /* XDUIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5CA30262D60950052E26C /* XDUIConfig.swift */; };
+		09E5CA3A262D62380052E26C /* XDColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5CA39262D62380052E26C /* XDColorExtension.swift */; };
+		09E5CA3D262D6AAC0052E26C /* XDDataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5CA3C262D6AAC0052E26C /* XDDataExtension.swift */; };
+		09E5CA40262D6AEB0052E26C /* XDDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5CA3F262D6AEB0052E26C /* XDDateExtension.swift */; };
+		09E5CA44262D6B270052E26C /* XDDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5CA43262D6B270052E26C /* XDDate.swift */; };
+		09E5CA48262D6BE40052E26C /* XDStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5CA47262D6BE40052E26C /* XDStringExtension.swift */; };
+		09E5CA4C262D6D0E0052E26C /* XDMD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5CA4B262D6D0E0052E26C /* XDMD5.swift */; };
+		09E5CA4F262D77190052E26C /* XDArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5CA4E262D77190052E26C /* XDArrayExtension.swift */; };
+		09E5CA52262D77760052E26C /* XDDictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5CA51262D77760052E26C /* XDDictionaryExtension.swift */; };
+		09E5CA55262D77DF0052E26C /* XDLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5CA54262D77DF0052E26C /* XDLog.swift */; };
+		09E5CA58262D78730052E26C /* XDJsonDecoderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5CA57262D78730052E26C /* XDJsonDecoderExtension.swift */; };
+		09E5CA5B262D79070052E26C /* XDUIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5CA5A262D79070052E26C /* XDUIImageExtension.swift */; };
+		09E5CA5E262D793F0052E26C /* XDUIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5CA5D262D793F0052E26C /* XDUIImageViewExtension.swift */; };
+		09E5CB31262D847E0052E26C /* XDUINavigationBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5CB30262D847E0052E26C /* XDUINavigationBarExtension.swift */; };
+		09E5CB34262D84D20052E26C /* XDUIScrollViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5CB33262D84D20052E26C /* XDUIScrollViewExtension.swift */; };
+		09E5CB37262D85260052E26C /* XDUIViewContrillerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5CB36262D85260052E26C /* XDUIViewContrillerExtension.swift */; };
+		09E5CB3B262D865D0052E26C /* XDUIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5CB3A262D865C0052E26C /* XDUIViewExtension.swift */; };
+		09E5CB3E262D87CC0052E26C /* XDFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5CB3D262D87CC0052E26C /* XDFunc.swift */; };
+		09E5CB41262D89B70052E26C /* XDProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5CB40262D89B70052E26C /* XDProtocol.swift */; };
+		09E5CB44262D8B160052E26C /* XDRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5CB43262D8B160052E26C /* XDRouter.swift */; };
+		09E5CB47262D8ED00052E26C /* XDUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5CB46262D8ED00052E26C /* XDUtils.swift */; };
+		09E5CB4A262D946A0052E26C /* XDTouchesGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5CB49262D946A0052E26C /* XDTouchesGestureRecognizer.swift */; };
+		09E5CB55262D96320052E26C /* CSGesturePromise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5CB4D262D96320052E26C /* CSGesturePromise.swift */; };
+		09E5CB56262D96320052E26C /* NSObjectAssociatedExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5CB4E262D96320052E26C /* NSObjectAssociatedExtension.swift */; };
+		09E5CB57262D96320052E26C /* ObserverNotificationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5CB4F262D96320052E26C /* ObserverNotificationExtension.swift */; };
+		09E5CB58262D96320052E26C /* SequenceTypeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5CB50262D96320052E26C /* SequenceTypeExtension.swift */; };
+		09E5CB59262D96320052E26C /* UIGesturePromiseExntension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5CB51262D96320052E26C /* UIGesturePromiseExntension.swift */; };
+		09E5CB5A262D96320052E26C /* NSTimerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5CB52262D96320052E26C /* NSTimerExtension.swift */; };
+		09E5CB5B262D96320052E26C /* UIControlExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5CB53262D96320052E26C /* UIControlExtension.swift */; };
+		09E5CB5C262D96320052E26C /* GestureUIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5CB54262D96320052E26C /* GestureUIViewExtension.swift */; };
+		09E5CB62262D96CF0052E26C /* XDBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E5CB61262D96CF0052E26C /* XDBaseVC.swift */; };
+		8AD2A8C95D5A2FF61B59F069 /* Pods_XDXCLife.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF85E2872C9C313191A06647 /* Pods_XDXCLife.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0907E468262E86BB00E8F9BB /* XDBaseNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDBaseNav.swift; sourceTree = "<group>"; };
+		0907E46B262E886F00E8F9BB /* XDBaseTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDBaseTabBar.swift; sourceTree = "<group>"; };
+		0907E46E262EA6C400E8F9BB /* XDBaseTableViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDBaseTableViewVC.swift; sourceTree = "<group>"; };
+		0907E471262EA6E600E8F9BB /* XDBaseCollectionViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDBaseCollectionViewVC.swift; sourceTree = "<group>"; };
+		0907E474262EA70A00E8F9BB /* XDBaseCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDBaseCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		0907E47A262EB06900E8F9BB /* XDEmptyDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDEmptyDataCell.swift; sourceTree = "<group>"; };
+		0907E47D262EC64200E8F9BB /* XDDefaultRefreshFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDDefaultRefreshFooter.swift; sourceTree = "<group>"; };
+		0907E481262EC6E100E8F9BB /* XDDefaultRefreshHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDDefaultRefreshHeader.swift; sourceTree = "<group>"; };
+		0907E485262EDED300E8F9BB /* XDHttp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDHttp.swift; sourceTree = "<group>"; };
+		0907E52E26300FE500E8F9BB /* WeakHighTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakHighTimer.swift; sourceTree = "<group>"; };
+		0907E5312630102E00E8F9BB /* XDCheckUpdateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDCheckUpdateView.swift; sourceTree = "<group>"; };
+		0907E534263013C300E8F9BB /* XDWaterFallLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDWaterFallLayout.swift; sourceTree = "<group>"; };
+		0907E53726302A9800E8F9BB /* XDHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDHomeVC.swift; sourceTree = "<group>"; };
+		0907E53A26302AEA00E8F9BB /* XDClassifyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDClassifyVC.swift; sourceTree = "<group>"; };
+		0907E53D26302B6000E8F9BB /* XDOfflineStoresVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDOfflineStoresVC.swift; sourceTree = "<group>"; };
+		0907E54026302B9700E8F9BB /* XDShoppingTrolleyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDShoppingTrolleyVC.swift; sourceTree = "<group>"; };
+		0907E54326302BAE00E8F9BB /* XDMineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDMineVC.swift; sourceTree = "<group>"; };
+		0907E54626302CF900E8F9BB /* XDLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDLoginVC.swift; sourceTree = "<group>"; };
+		09D360C3262E664C009A9284 /* XDHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDHUD.swift; sourceTree = "<group>"; };
+		09D360C6262E6FFC009A9284 /* XDEmptyDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDEmptyDataView.swift; sourceTree = "<group>"; };
+		09E5C9D4262D22150052E26C /* XDXCLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XDXCLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09E5C9D7262D22150052E26C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09E5C9E0262D221A0052E26C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09E5C9E3262D221A0052E26C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09E5C9E5262D221A0052E26C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09E5CA16262D50EE0052E26C /* XDXCLife-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XDXCLife-Bridging-Header.h"; sourceTree = "<group>"; };
+		09E5CA24262D53480052E26C /* XDAppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDAppConfig.swift; sourceTree = "<group>"; };
+		09E5CA27262D5C890052E26C /* XDAppConfig+enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XDAppConfig+enum.swift"; sourceTree = "<group>"; };
+		09E5CA2A262D5E320052E26C /* XDAppConfig+notifi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XDAppConfig+notifi.swift"; sourceTree = "<group>"; };
+		09E5CA2D262D60460052E26C /* XDSDKConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDSDKConfig.swift; sourceTree = "<group>"; };
+		09E5CA30262D60950052E26C /* XDUIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDUIConfig.swift; sourceTree = "<group>"; };
+		09E5CA39262D62380052E26C /* XDColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDColorExtension.swift; sourceTree = "<group>"; };
+		09E5CA3C262D6AAC0052E26C /* XDDataExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDDataExtension.swift; sourceTree = "<group>"; };
+		09E5CA3F262D6AEB0052E26C /* XDDateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDDateExtension.swift; sourceTree = "<group>"; };
+		09E5CA43262D6B270052E26C /* XDDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDDate.swift; sourceTree = "<group>"; };
+		09E5CA47262D6BE40052E26C /* XDStringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDStringExtension.swift; sourceTree = "<group>"; };
+		09E5CA4B262D6D0E0052E26C /* XDMD5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDMD5.swift; sourceTree = "<group>"; };
+		09E5CA4E262D77190052E26C /* XDArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDArrayExtension.swift; sourceTree = "<group>"; };
+		09E5CA51262D77760052E26C /* XDDictionaryExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDDictionaryExtension.swift; sourceTree = "<group>"; };
+		09E5CA54262D77DF0052E26C /* XDLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDLog.swift; sourceTree = "<group>"; };
+		09E5CA57262D78730052E26C /* XDJsonDecoderExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDJsonDecoderExtension.swift; sourceTree = "<group>"; };
+		09E5CA5A262D79070052E26C /* XDUIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDUIImageExtension.swift; sourceTree = "<group>"; };
+		09E5CA5D262D793F0052E26C /* XDUIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDUIImageViewExtension.swift; sourceTree = "<group>"; };
+		09E5CB30262D847E0052E26C /* XDUINavigationBarExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDUINavigationBarExtension.swift; sourceTree = "<group>"; };
+		09E5CB33262D84D20052E26C /* XDUIScrollViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDUIScrollViewExtension.swift; sourceTree = "<group>"; };
+		09E5CB36262D85260052E26C /* XDUIViewContrillerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDUIViewContrillerExtension.swift; sourceTree = "<group>"; };
+		09E5CB3A262D865C0052E26C /* XDUIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDUIViewExtension.swift; sourceTree = "<group>"; };
+		09E5CB3D262D87CC0052E26C /* XDFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDFunc.swift; sourceTree = "<group>"; };
+		09E5CB40262D89B70052E26C /* XDProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDProtocol.swift; sourceTree = "<group>"; };
+		09E5CB43262D8B160052E26C /* XDRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDRouter.swift; sourceTree = "<group>"; };
+		09E5CB46262D8ED00052E26C /* XDUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDUtils.swift; sourceTree = "<group>"; };
+		09E5CB49262D946A0052E26C /* XDTouchesGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDTouchesGestureRecognizer.swift; sourceTree = "<group>"; };
+		09E5CB4D262D96320052E26C /* CSGesturePromise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSGesturePromise.swift; sourceTree = "<group>"; };
+		09E5CB4E262D96320052E26C /* NSObjectAssociatedExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObjectAssociatedExtension.swift; sourceTree = "<group>"; };
+		09E5CB4F262D96320052E26C /* ObserverNotificationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObserverNotificationExtension.swift; sourceTree = "<group>"; };
+		09E5CB50262D96320052E26C /* SequenceTypeExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SequenceTypeExtension.swift; sourceTree = "<group>"; };
+		09E5CB51262D96320052E26C /* UIGesturePromiseExntension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIGesturePromiseExntension.swift; sourceTree = "<group>"; };
+		09E5CB52262D96320052E26C /* NSTimerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSTimerExtension.swift; sourceTree = "<group>"; };
+		09E5CB53262D96320052E26C /* UIControlExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIControlExtension.swift; sourceTree = "<group>"; };
+		09E5CB54262D96320052E26C /* GestureUIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GestureUIViewExtension.swift; sourceTree = "<group>"; };
+		09E5CB61262D96CF0052E26C /* XDBaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDBaseVC.swift; sourceTree = "<group>"; };
+		981F41E15A35BD265E7AF25F /* Pods-XDXCLife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XDXCLife.debug.xcconfig"; path = "Target Support Files/Pods-XDXCLife/Pods-XDXCLife.debug.xcconfig"; sourceTree = "<group>"; };
+		BF85E2872C9C313191A06647 /* Pods_XDXCLife.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XDXCLife.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E26B04FAED378218AB4CCC84 /* Pods-XDXCLife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XDXCLife.release.xcconfig"; path = "Target Support Files/Pods-XDXCLife/Pods-XDXCLife.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09E5C9D1262D22150052E26C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AD2A8C95D5A2FF61B59F069 /* Pods_XDXCLife.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0907E477262EA71000E8F9BB /* XDBaseListVC */ = {
+			isa = PBXGroup;
+			children = (
+				0907E46E262EA6C400E8F9BB /* XDBaseTableViewVC.swift */,
+				0907E471262EA6E600E8F9BB /* XDBaseCollectionViewVC.swift */,
+				0907E474262EA70A00E8F9BB /* XDBaseCollectionViewFlowLayout.swift */,
+			);
+			path = XDBaseListVC;
+			sourceTree = "<group>";
+		};
+		0907E480262EC69F00E8F9BB /* Refresh */ = {
+			isa = PBXGroup;
+			children = (
+				0907E47D262EC64200E8F9BB /* XDDefaultRefreshFooter.swift */,
+				0907E481262EC6E100E8F9BB /* XDDefaultRefreshHeader.swift */,
+			);
+			path = Refresh;
+			sourceTree = "<group>";
+		};
+		0907E54A26302CFF00E8F9BB /* XDLogin */ = {
+			isa = PBXGroup;
+			children = (
+				0907E54626302CF900E8F9BB /* XDLoginVC.swift */,
+			);
+			path = XDLogin;
+			sourceTree = "<group>";
+		};
+		0907E54D26302D0B00E8F9BB /* XDMine */ = {
+			isa = PBXGroup;
+			children = (
+				0907E54326302BAE00E8F9BB /* XDMineVC.swift */,
+			);
+			path = XDMine;
+			sourceTree = "<group>";
+		};
+		0907E54E26302D1D00E8F9BB /* XDShoppingTrolley */ = {
+			isa = PBXGroup;
+			children = (
+				0907E54026302B9700E8F9BB /* XDShoppingTrolleyVC.swift */,
+			);
+			path = XDShoppingTrolley;
+			sourceTree = "<group>";
+		};
+		0907E54F26302D2E00E8F9BB /* XDOfflineStores */ = {
+			isa = PBXGroup;
+			children = (
+				0907E53D26302B6000E8F9BB /* XDOfflineStoresVC.swift */,
+			);
+			path = XDOfflineStores;
+			sourceTree = "<group>";
+		};
+		0907E55126302D3900E8F9BB /* XDClassify */ = {
+			isa = PBXGroup;
+			children = (
+				0907E53A26302AEA00E8F9BB /* XDClassifyVC.swift */,
+			);
+			path = XDClassify;
+			sourceTree = "<group>";
+		};
+		0907E55226302D4800E8F9BB /* XDHome */ = {
+			isa = PBXGroup;
+			children = (
+				0907E53726302A9800E8F9BB /* XDHomeVC.swift */,
+			);
+			path = XDHome;
+			sourceTree = "<group>";
+		};
+		09D360C2262E65E8009A9284 /* XDCommon */ = {
+			isa = PBXGroup;
+			children = (
+				09D360C3262E664C009A9284 /* XDHUD.swift */,
+				09D360C6262E6FFC009A9284 /* XDEmptyDataView.swift */,
+				0907E47A262EB06900E8F9BB /* XDEmptyDataCell.swift */,
+				0907E52E26300FE500E8F9BB /* WeakHighTimer.swift */,
+				0907E5312630102E00E8F9BB /* XDCheckUpdateView.swift */,
+				0907E534263013C300E8F9BB /* XDWaterFallLayout.swift */,
+				0907E480262EC69F00E8F9BB /* Refresh */,
+			);
+			path = XDCommon;
+			sourceTree = "<group>";
+		};
+		09E5C9CB262D22150052E26C = {
+			isa = PBXGroup;
+			children = (
+				09E5C9D6262D22150052E26C /* XDXCLife */,
+				09E5C9D5262D22150052E26C /* Products */,
+				7A0CFE50F0A96D6ACB3D2879 /* Pods */,
+				A4D595D497C53134FD6DB191 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		09E5C9D5262D22150052E26C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09E5C9D4262D22150052E26C /* XDXCLife.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09E5C9D6262D22150052E26C /* XDXCLife */ = {
+			isa = PBXGroup;
+			children = (
+				09E5C9D7262D22150052E26C /* AppDelegate.swift */,
+				09E5C9E0262D221A0052E26C /* Assets.xcassets */,
+				09E5CB5F262D96900052E26C /* XDClass */,
+				09D360C2262E65E8009A9284 /* XDCommon */,
+				09E5CA42262D6B050052E26C /* XDUtils */,
+				09E5CA33262D61800052E26C /* XDExtension */,
+				09E5CA1C262D51050052E26C /* XDConfig */,
+				09E5CA22262D526B0052E26C /* Support File */,
+			);
+			path = XDXCLife;
+			sourceTree = "<group>";
+		};
+		09E5CA1C262D51050052E26C /* XDConfig */ = {
+			isa = PBXGroup;
+			children = (
+				09E5CA24262D53480052E26C /* XDAppConfig.swift */,
+				09E5CA27262D5C890052E26C /* XDAppConfig+enum.swift */,
+				09E5CA2A262D5E320052E26C /* XDAppConfig+notifi.swift */,
+				09E5CA2D262D60460052E26C /* XDSDKConfig.swift */,
+				09E5CA30262D60950052E26C /* XDUIConfig.swift */,
+			);
+			path = XDConfig;
+			sourceTree = "<group>";
+		};
+		09E5CA22262D526B0052E26C /* Support File */ = {
+			isa = PBXGroup;
+			children = (
+				09E5CA16262D50EE0052E26C /* XDXCLife-Bridging-Header.h */,
+				09E5C9E5262D221A0052E26C /* Info.plist */,
+				09E5C9E2262D221A0052E26C /* LaunchScreen.storyboard */,
+			);
+			name = "Support File";
+			sourceTree = "<group>";
+		};
+		09E5CA33262D61800052E26C /* XDExtension */ = {
+			isa = PBXGroup;
+			children = (
+				09E5CA39262D62380052E26C /* XDColorExtension.swift */,
+				09E5CA4E262D77190052E26C /* XDArrayExtension.swift */,
+				09E5CA3C262D6AAC0052E26C /* XDDataExtension.swift */,
+				09E5CA3F262D6AEB0052E26C /* XDDateExtension.swift */,
+				09E5CA47262D6BE40052E26C /* XDStringExtension.swift */,
+				09E5CA51262D77760052E26C /* XDDictionaryExtension.swift */,
+				09E5CA57262D78730052E26C /* XDJsonDecoderExtension.swift */,
+				09E5CA5A262D79070052E26C /* XDUIImageExtension.swift */,
+				09E5CA5D262D793F0052E26C /* XDUIImageViewExtension.swift */,
+				09E5CB30262D847E0052E26C /* XDUINavigationBarExtension.swift */,
+				09E5CB33262D84D20052E26C /* XDUIScrollViewExtension.swift */,
+				09E5CB36262D85260052E26C /* XDUIViewContrillerExtension.swift */,
+				09E5CB3A262D865C0052E26C /* XDUIViewExtension.swift */,
+			);
+			path = XDExtension;
+			sourceTree = "<group>";
+		};
+		09E5CA42262D6B050052E26C /* XDUtils */ = {
+			isa = PBXGroup;
+			children = (
+				09E5CA43262D6B270052E26C /* XDDate.swift */,
+				09E5CA4B262D6D0E0052E26C /* XDMD5.swift */,
+				09E5CA54262D77DF0052E26C /* XDLog.swift */,
+				09E5CB3D262D87CC0052E26C /* XDFunc.swift */,
+				09E5CB40262D89B70052E26C /* XDProtocol.swift */,
+				09E5CB43262D8B160052E26C /* XDRouter.swift */,
+				09E5CB49262D946A0052E26C /* XDTouchesGestureRecognizer.swift */,
+				09E5CB46262D8ED00052E26C /* XDUtils.swift */,
+				0907E485262EDED300E8F9BB /* XDHttp.swift */,
+				09E5CB4C262D96320052E26C /* XDClosuresKit */,
+			);
+			path = XDUtils;
+			sourceTree = "<group>";
+		};
+		09E5CB4C262D96320052E26C /* XDClosuresKit */ = {
+			isa = PBXGroup;
+			children = (
+				09E5CB4D262D96320052E26C /* CSGesturePromise.swift */,
+				09E5CB4E262D96320052E26C /* NSObjectAssociatedExtension.swift */,
+				09E5CB4F262D96320052E26C /* ObserverNotificationExtension.swift */,
+				09E5CB50262D96320052E26C /* SequenceTypeExtension.swift */,
+				09E5CB51262D96320052E26C /* UIGesturePromiseExntension.swift */,
+				09E5CB52262D96320052E26C /* NSTimerExtension.swift */,
+				09E5CB53262D96320052E26C /* UIControlExtension.swift */,
+				09E5CB54262D96320052E26C /* GestureUIViewExtension.swift */,
+			);
+			path = XDClosuresKit;
+			sourceTree = "<group>";
+		};
+		09E5CB5F262D96900052E26C /* XDClass */ = {
+			isa = PBXGroup;
+			children = (
+				09E5CB60262D96A90052E26C /* XDBase */,
+				0907E55226302D4800E8F9BB /* XDHome */,
+				0907E55126302D3900E8F9BB /* XDClassify */,
+				0907E54F26302D2E00E8F9BB /* XDOfflineStores */,
+				0907E54E26302D1D00E8F9BB /* XDShoppingTrolley */,
+				0907E54D26302D0B00E8F9BB /* XDMine */,
+				0907E54A26302CFF00E8F9BB /* XDLogin */,
+			);
+			path = XDClass;
+			sourceTree = "<group>";
+		};
+		09E5CB60262D96A90052E26C /* XDBase */ = {
+			isa = PBXGroup;
+			children = (
+				09E5CB61262D96CF0052E26C /* XDBaseVC.swift */,
+				0907E468262E86BB00E8F9BB /* XDBaseNav.swift */,
+				0907E46B262E886F00E8F9BB /* XDBaseTabBar.swift */,
+				0907E477262EA71000E8F9BB /* XDBaseListVC */,
+			);
+			path = XDBase;
+			sourceTree = "<group>";
+		};
+		7A0CFE50F0A96D6ACB3D2879 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				981F41E15A35BD265E7AF25F /* Pods-XDXCLife.debug.xcconfig */,
+				E26B04FAED378218AB4CCC84 /* Pods-XDXCLife.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A4D595D497C53134FD6DB191 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF85E2872C9C313191A06647 /* Pods_XDXCLife.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09E5C9D3262D22150052E26C /* XDXCLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09E5C9E8262D221A0052E26C /* Build configuration list for PBXNativeTarget "XDXCLife" */;
+			buildPhases = (
+				64593FABAF4B1E3E7DA17D44 /* [CP] Check Pods Manifest.lock */,
+				09E5C9D0262D22150052E26C /* Sources */,
+				09E5C9D1262D22150052E26C /* Frameworks */,
+				09E5C9D2262D22150052E26C /* Resources */,
+				78E92D53A33578B0234CFAED /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XDXCLife;
+			productName = XDXCLife;
+			productReference = 09E5C9D4262D22150052E26C /* XDXCLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09E5C9CC262D22150052E26C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XD;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					09E5C9D3262D22150052E26C = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
+					};
+				};
+			};
+			buildConfigurationList = 09E5C9CF262D22150052E26C /* Build configuration list for PBXProject "XDXCLife" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09E5C9CB262D22150052E26C;
+			productRefGroup = 09E5C9D5262D22150052E26C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09E5C9D3262D22150052E26C /* XDXCLife */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09E5C9D2262D22150052E26C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E5C9E4262D221A0052E26C /* LaunchScreen.storyboard in Resources */,
+				09E5C9E1262D221A0052E26C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64593FABAF4B1E3E7DA17D44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XDXCLife-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78E92D53A33578B0234CFAED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XDXCLife/Pods-XDXCLife-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XDXCLife/Pods-XDXCLife-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XDXCLife/Pods-XDXCLife-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09E5C9D0262D22150052E26C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0907E54126302B9700E8F9BB /* XDShoppingTrolleyVC.swift in Sources */,
+				0907E5322630102E00E8F9BB /* XDCheckUpdateView.swift in Sources */,
+				09E5CA4C262D6D0E0052E26C /* XDMD5.swift in Sources */,
+				0907E472262EA6E600E8F9BB /* XDBaseCollectionViewVC.swift in Sources */,
+				09E5CA28262D5C890052E26C /* XDAppConfig+enum.swift in Sources */,
+				09E5CB55262D96320052E26C /* CSGesturePromise.swift in Sources */,
+				09E5CA40262D6AEB0052E26C /* XDDateExtension.swift in Sources */,
+				09E5CA3A262D62380052E26C /* XDColorExtension.swift in Sources */,
+				09E5CA55262D77DF0052E26C /* XDLog.swift in Sources */,
+				09E5CB56262D96320052E26C /* NSObjectAssociatedExtension.swift in Sources */,
+				09E5CA4F262D77190052E26C /* XDArrayExtension.swift in Sources */,
+				0907E53826302A9800E8F9BB /* XDHomeVC.swift in Sources */,
+				09E5CB3E262D87CC0052E26C /* XDFunc.swift in Sources */,
+				0907E46C262E886F00E8F9BB /* XDBaseTabBar.swift in Sources */,
+				09E5CB41262D89B70052E26C /* XDProtocol.swift in Sources */,
+				09E5CA2E262D60460052E26C /* XDSDKConfig.swift in Sources */,
+				0907E47B262EB06900E8F9BB /* XDEmptyDataCell.swift in Sources */,
+				09E5CA52262D77760052E26C /* XDDictionaryExtension.swift in Sources */,
+				09E5C9D8262D22150052E26C /* AppDelegate.swift in Sources */,
+				09D360C7262E6FFC009A9284 /* XDEmptyDataView.swift in Sources */,
+				0907E53B26302AEA00E8F9BB /* XDClassifyVC.swift in Sources */,
+				09E5CB58262D96320052E26C /* SequenceTypeExtension.swift in Sources */,
+				0907E46F262EA6C400E8F9BB /* XDBaseTableViewVC.swift in Sources */,
+				0907E47E262EC64200E8F9BB /* XDDefaultRefreshFooter.swift in Sources */,
+				09E5CA5E262D793F0052E26C /* XDUIImageViewExtension.swift in Sources */,
+				0907E54726302CF900E8F9BB /* XDLoginVC.swift in Sources */,
+				09E5CB5C262D96320052E26C /* GestureUIViewExtension.swift in Sources */,
+				09E5CA58262D78730052E26C /* XDJsonDecoderExtension.swift in Sources */,
+				09E5CB34262D84D20052E26C /* XDUIScrollViewExtension.swift in Sources */,
+				09D360C4262E664C009A9284 /* XDHUD.swift in Sources */,
+				09E5CA3D262D6AAC0052E26C /* XDDataExtension.swift in Sources */,
+				0907E54426302BAE00E8F9BB /* XDMineVC.swift in Sources */,
+				09E5CA2B262D5E320052E26C /* XDAppConfig+notifi.swift in Sources */,
+				0907E482262EC6E100E8F9BB /* XDDefaultRefreshHeader.swift in Sources */,
+				09E5CA44262D6B270052E26C /* XDDate.swift in Sources */,
+				09E5CB4A262D946A0052E26C /* XDTouchesGestureRecognizer.swift in Sources */,
+				0907E535263013C300E8F9BB /* XDWaterFallLayout.swift in Sources */,
+				09E5CB5A262D96320052E26C /* NSTimerExtension.swift in Sources */,
+				09E5CB47262D8ED00052E26C /* XDUtils.swift in Sources */,
+				09E5CB37262D85260052E26C /* XDUIViewContrillerExtension.swift in Sources */,
+				09E5CA31262D60950052E26C /* XDUIConfig.swift in Sources */,
+				0907E486262EDED300E8F9BB /* XDHttp.swift in Sources */,
+				09E5CA5B262D79070052E26C /* XDUIImageExtension.swift in Sources */,
+				0907E469262E86BB00E8F9BB /* XDBaseNav.swift in Sources */,
+				0907E53E26302B6000E8F9BB /* XDOfflineStoresVC.swift in Sources */,
+				09E5CB57262D96320052E26C /* ObserverNotificationExtension.swift in Sources */,
+				09E5CA48262D6BE40052E26C /* XDStringExtension.swift in Sources */,
+				09E5CB5B262D96320052E26C /* UIControlExtension.swift in Sources */,
+				09E5CB31262D847E0052E26C /* XDUINavigationBarExtension.swift in Sources */,
+				09E5CB62262D96CF0052E26C /* XDBaseVC.swift in Sources */,
+				0907E475262EA70A00E8F9BB /* XDBaseCollectionViewFlowLayout.swift in Sources */,
+				09E5CB59262D96320052E26C /* UIGesturePromiseExntension.swift in Sources */,
+				09E5CA25262D53480052E26C /* XDAppConfig.swift in Sources */,
+				09E5CB44262D8B160052E26C /* XDRouter.swift in Sources */,
+				09E5CB3B262D865D0052E26C /* XDUIViewExtension.swift in Sources */,
+				0907E52F26300FE500E8F9BB /* WeakHighTimer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09E5C9E2262D221A0052E26C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09E5C9E3262D221A0052E26C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09E5C9E6262D221A0052E26C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09E5C9E7262D221A0052E26C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09E5C9E9262D221A0052E26C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 981F41E15A35BD265E7AF25F /* Pods-XDXCLife.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XDXCLife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oy.xclife.XDXCLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "XDXCLife/XDXCLife-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		09E5C9EA262D221A0052E26C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E26B04FAED378218AB4CCC84 /* Pods-XDXCLife.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XDXCLife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oy.xclife.XDXCLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "XDXCLife/XDXCLife-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09E5C9CF262D22150052E26C /* Build configuration list for PBXProject "XDXCLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09E5C9E6262D221A0052E26C /* Debug */,
+				09E5C9E7262D221A0052E26C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09E5C9E8262D221A0052E26C /* Build configuration list for PBXNativeTarget "XDXCLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09E5C9E9262D221A0052E26C /* Debug */,
+				09E5C9EA262D221A0052E26C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09E5C9CC262D22150052E26C /* Project object */;
+}

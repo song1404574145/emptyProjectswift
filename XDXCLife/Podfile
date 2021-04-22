@@ -1,0 +1,32 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+
+target 'XDXCLife' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  # Pods for XDXCLife
+  
+  pod 'SDCycleScrollView'
+  pod 'IQKeyboardManagerSwift'
+  pod 'Moya'
+  pod 'Kingfisher'
+  pod 'SnapKit'
+  pod 'MJRefresh'
+  pod 'SKPhotoBrowser'
+  pod 'TZImagePickerController'
+  pod 'ESTabBarController-swift'
+  pod 'JXCategoryView'
+  pod 'JXPagingView/Paging', '1.2.3'
+  pod 'WXNavigationBar'
+  pod 'SwifterSwift'
+  pod 'MCToast'
+  pod 'BFEmptyDataSet'
+  pod 'LookinServer', :configurations => ['Debug']
+  pod 'Bugly'
+  pod 'BRPickerView'
+  pod 'HandyJSON'
+  
+  # SDK类
+  
+
+end
